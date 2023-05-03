@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d029f9e-61c3-499f-9201-b18a986a439d" name="Changes" comment="Homework13">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/curs14/First.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fasttrackit/curs14/FirstTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Homework13/exercitiu1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Homework13/exercitiu1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +53,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.org.fasttrackit.Homework13.exercitiu1.Main">
+  <component name="RunManager" selected="JUnit.FirstTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.fasttrackit.Main" />
       <module name="FirstMavenProject" />
@@ -78,8 +80,58 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FirstTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="FirstMavenProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.fasttrackit.curs14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.fasttrackit.curs14" />
+      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.curs14.FirstTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstTest.sumOfNegativeNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FirstMavenProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.fasttrackit.curs14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.fasttrackit.curs14" />
+      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.curs14.FirstTest" />
+      <option name="METHOD_NAME" value="sumOfNegativeNumbers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstTest.sumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FirstMavenProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.fasttrackit.curs14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.fasttrackit.curs14" />
+      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.curs14.FirstTest" />
+      <option name="METHOD_NAME" value="sumTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FirstTest.sumOfNegativeNumbers" />
+        <item itemvalue="JUnit.FirstTest.sumTest" />
         <item itemvalue="Application.org.fasttrackit.Homework13.exercitiu1.Main" />
         <item itemvalue="Application.Main" />
       </list>
@@ -150,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683097588451</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Homework13">
+      <created>1683098667100</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1683098667100</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
