@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d029f9e-61c3-499f-9201-b18a986a439d" name="Changes" comment="Homework13">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/curs14/First.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/fasttrackit/curs14/FirstTest.java" afterDir="false" />
+    <list default="true" id="5d029f9e-61c3-499f-9201-b18a986a439d" name="Changes" comment="Curs14">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683098667100</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Curs14">
+      <created>1683134640965</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1683134640965</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -226,7 +230,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Curs13" />
     <MESSAGE value="Homework13" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework13" />
+    <MESSAGE value="Curs14" />
+    <option name="LAST_COMMIT_MESSAGE" value="Curs14" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
