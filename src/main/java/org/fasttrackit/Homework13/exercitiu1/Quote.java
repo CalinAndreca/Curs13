@@ -16,7 +16,7 @@ public class Quote {
         this.favorite = false;
     }
 
-    // getters and setters
+
 
     public int getId() {
         return id;

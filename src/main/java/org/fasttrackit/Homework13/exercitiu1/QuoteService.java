@@ -14,25 +14,22 @@ public class QuoteService {
         this.quotes = quotes;
     }
 
-    public List<String> getAllQuotes() throws IOException {
-        BufferedReader br = new BufferedReader(new FileReader(new File("src/main/java/org/fasttrackit/Homework13/exercitiu1/quotes.txt")));
-        String line;
-        while ((line = br.readLine()) != null) {
-            String[] parts = line.split("~");
-            System.out.println(parts[1]);
-        }
+    public List<String> getAllQuotes() {
+
         return quotes.stream()
                 .map(Quote::getQuote)
                 .collect(Collectors.toList());
     }
 
     public List<Quote> getQuotesForAuthor(String author) {
+
         return quotes.stream()
                 .filter(q -> q.getAuthor().equals(author))
                 .collect(Collectors.toList());
     }
 
     public List<String> getAuthors() {
+
         return quotes.stream()
                 .map(Quote::getAuthor)
                 .distinct()
