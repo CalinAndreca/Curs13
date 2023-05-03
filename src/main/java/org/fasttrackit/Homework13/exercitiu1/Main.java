@@ -39,19 +39,7 @@ public class Main {
         }
 
         QuoteService quoteService = new QuoteService(quotes);
-//        ObjectMapper mapper = new ObjectMapper();
-//
-//        try {
-//            List<String> lines = FileUtils.readLines(new File("src/main/java/org/fasttrackit/Homework13/exercitiu1/quotes.txt"), "UTF-8");
-//            List<Quote> quotes = lines.stream()
-//                    .map(line -> {
-//                        String[] parts = line.split("~");
-//                        return new Quote(Integer.parseInt(parts[0]), parts[1], parts[2]);
-//                    })
-//                    .collect(Collectors.toList());
-//            QuoteService quoteService = new QuoteService(quotes);
-//
-//
+
             List<String> allQuotes = quoteService.getAllQuotes();
             System.out.println("All quotes:");
             allQuotes.forEach(System.out::println);
