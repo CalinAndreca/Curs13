@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d029f9e-61c3-499f-9201-b18a986a439d" name="Changes" comment="Curs14">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/curs14/homework14/TemperatureConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/fasttrackit/curs14/homework14/TemperatureConverterTest.java" afterDir="false" />
+    <list default="true" id="5d029f9e-61c3-499f-9201-b18a986a439d" name="Changes" comment="Homework14">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/curs14/homework14/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/fasttrackit/curs14/homework14/PersonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,20 +52,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.TemperatureConverterTest">
-    <configuration name="org.fasttrackit.Homework13.exercitiu1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.Homework13.exercitiu1.Main" />
-      <module name="FirstMavenProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.fasttrackit.Homework13.exercitiu1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.PersonTest">
     <configuration name="FirstTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="FirstMavenProject" />
       <extension name="coverage">
@@ -114,6 +101,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PersonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FirstMavenProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.fasttrackit.curs14.homework14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.fasttrackit.curs14.homework14" />
+      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.curs14.homework14.PersonTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TemperatureConverterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FirstMavenProject" />
       <extension name="coverage">
@@ -147,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PersonTest" />
         <item itemvalue="JUnit.TemperatureConverterTest" />
         <item itemvalue="JUnit.TemperatureConverterTest.testFahrenheitToCelsiusFreezingPoint" />
         <item itemvalue="JUnit.FirstTest.sumOfNegativeNumbers" />
         <item itemvalue="JUnit.FirstTest.sumTest" />
-        <item itemvalue="Application.org.fasttrackit.Homework13.exercitiu1.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683136597227</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Homework14">
+      <created>1683207587880</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1683207587880</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -259,7 +268,8 @@
     <MESSAGE value="Curs13" />
     <MESSAGE value="Homework13" />
     <MESSAGE value="Curs14" />
-    <option name="LAST_COMMIT_MESSAGE" value="Curs14" />
+    <MESSAGE value="Homework14" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework14" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
