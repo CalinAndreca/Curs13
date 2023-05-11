@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d029f9e-61c3-499f-9201-b18a986a439d" name="Changes" comment="Curs15">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/curs15/homework15/RecursiveMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/fasttrackit/curs15/homework15/RecursiveMethodsTest.java" afterDir="false" />
+    <list default="true" id="5d029f9e-61c3-499f-9201-b18a986a439d" name="Changes" comment="HomeWork15">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/curs15/homework15/exercitiu2/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/curs15/homework15/exercitiu2/Clothes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/curs15/homework15/exercitiu2/Electronics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/curs15/homework15/exercitiu2/Fruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/curs15/homework15/exercitiu2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/curs15/homework15/exercitiu2/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/curs15/homework15/exercitiu2/ShopItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +23,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -53,7 +59,20 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.RecursiveMethodsTest">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.curs15.homework15.exercitiu2.Main" />
+      <module name="FirstMavenProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.fasttrackit.curs15.homework15.exercitiu2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FirstTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="FirstMavenProject" />
       <extension name="coverage">
@@ -117,22 +136,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecursiveMethodsTest.testIsPalindromeUsingReverse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FirstMavenProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.fasttrackit.curs15.homework15.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.fasttrackit.curs15.homework15" />
-      <option name="MAIN_CLASS_NAME" value="org.fasttrackit.curs15.homework15.RecursiveMethodsTest" />
-      <option name="METHOD_NAME" value="testIsPalindromeUsingReverse" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RecursiveMethodsTest.testSumOfDigits" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FirstMavenProject" />
       <extension name="coverage">
@@ -151,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.RecursiveMethodsTest" />
         <item itemvalue="JUnit.RecursiveMethodsTest.testFibonacci" />
         <item itemvalue="JUnit.RecursiveMethodsTest.testSumOfDigits" />
         <item itemvalue="JUnit.RecursiveMethodsTest.testIsPalindromeUsingFirstAndLast" />
-        <item itemvalue="JUnit.RecursiveMethodsTest.testIsPalindromeUsingReverse" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683567954797</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="HomeWork15">
+      <created>1683722137706</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1683722137706</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -293,7 +303,8 @@
     <MESSAGE value="Curs14" />
     <MESSAGE value="Homework14" />
     <MESSAGE value="Curs15" />
-    <option name="LAST_COMMIT_MESSAGE" value="Curs15" />
+    <MESSAGE value="HomeWork15" />
+    <option name="LAST_COMMIT_MESSAGE" value="HomeWork15" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
